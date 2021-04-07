@@ -1,14 +1,3 @@
-"""
-
-Potential Field based path planner
-
-author: Atsushi Sakai (@Atsushi_twi)
-
-Ref:
-https://www.cs.cmu.edu/~motionplanning/lecture/Chap4-Potential-Field_howie.pdf
-
-"""
-
 from collections import deque
 import numpy as np
 import matplotlib.pyplot as plt
@@ -178,8 +167,8 @@ def main():
     grid_size = 0.5  # potential grid size [m]
     robot_radius = 5.0  # robot radius [m]
 
-    ox = [15.0, 5.0, 20.0, 25.0]  # obstacle x position list [m]
-    oy = [25.0, 15.0, 26.0, 25.0]  # obstacle y position list [m]
+    ox = [15.0, 5.0, 20.0, 25.0, 25.0, 25.0]  # obstacle x position list [m]
+    oy = [20.0, 15.0, 15.0, 25.0, 31.0, 28.0]  # obstacle y position list [m]
 
     if show_animation:
         plt.grid(True)
