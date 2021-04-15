@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">PathPlanning Demo</string>
+    <string name="button" translatable="false">Route Plan</string>
+    <string name="Origin" translatable="false">Input the x y of origin</string>
+    <string name="Goal" translatable="false">Input the x y of goal</string>
+</resources>
